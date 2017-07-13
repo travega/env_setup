@@ -1,17 +1,18 @@
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias ga='git add'
-alias gs='git status'
-alias gco='git checkout'
-alias gr='git rebase'
-alias gpush='git push'
-alias gpull='git pull'
-alias gl='git log'
-alias ..='cd ..'
-alias grm='git rm --cache'
-alias apt='sudo apt-get'
-alias src='~/src; ll'
+
+
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.zshrc
+echo 'alias ll="ls -alF"' >> ~/.zshrc
+echo 'alias la="ls -A"' >> ~/.zshrc
+echo 'alias l="ls -CF"' >> ~/.zshrc
+echo 'alias ga="git add"' >> ~/.zshrc
+echo 'alias gs="git status"' >> ~/.zshrc
+echo 'alias gco="git checkout"' >> ~/.zshrc
+echo 'alias gr="git rebase"' >> ~/.zshrc
+echo 'alias gpush="git push"' >> ~/.zshrc
+echo 'alias gpull="git pull"' >> ~/.zshrc
+echo 'alias gl="git log"' >> ~/.zshrc
+echo 'alias ..="cd .."' >> ~/.zshrc
+echo 'alias grm="git rm --cache"' >> ~/.zshrc
+echo 'alias src="~/src; ll"' >> ~/.zshrc
