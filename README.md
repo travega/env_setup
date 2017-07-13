@@ -8,4 +8,4 @@ A collection of config scripts for my dev environment. Mostly its a bunch of con
 
 Run:
 
-`sh -c "$(curl -fsSL https://github.com/travega/env_setup/aliases.sh)"`
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/travega/env_setup/master/aliases.sh)"`
