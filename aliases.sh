@@ -14,3 +14,4 @@ echo 'alias gl="git log"' >> ~/.zshrc
 echo 'alias ..="cd .."' >> ~/.zshrc
 echo 'alias grm="git rm --cache"' >> ~/.zshrc
 echo 'alias src="~/src; ll"' >> ~/.zshrc
+source ~/.zshrc
