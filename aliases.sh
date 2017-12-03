@@ -11,4 +11,6 @@ echo 'alias gl="git log"' >> ~/.zshrc
 echo 'alias ..="cd .."' >> ~/.zshrc
 echo 'alias grm="git rm --cache"' >> ~/.zshrc
 echo 'alias src="~/src; ll"' >> ~/.zshrc
+echo 'alias be="bundle exec"' >> ~/.zshrc
+echo 'alias ber="bundle exec rake"' >> ~/.zshrc
 source ~/.zshrc
